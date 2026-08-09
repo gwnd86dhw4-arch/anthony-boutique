@@ -1,0 +1,237 @@
+<header class="header">
+  <nav class="navbar">
+<a href="#inicio" class="logo">
+  ANTHONY <span>BOUTIQUE</span>
+</a>
+<button class="menu-toggle" id="menuToggle" aria-label="Abrir menú">
+  ☰
+</button>
+<div class="menu" id="menu">
+  <a href="#inicio">Inicio</a>
+  <a href="#productos">Productos</a>
+  <a href="#servicios">Servicios</a>
+  <a href="#galeria">Galería</a>
+  <a href="#contacto">Contacto</a>
+</div>
+<button class="cart-button" id="cartButton">
+  🛍️ <span id="cartCount">0</span>
+</button>
+  </nav>
+</header>
+<main>
+  <!-- INICIO -->
+  <section id="inicio" class="hero">
+<div class="hero-content">
+  <p class="eyebrow">
+    ANTHONY BOUTIQUE
+  </p>
+  <h1>
+    Elegancia que<br>
+    define tu estilo.
+  </h1>
+  <p class="hero-text">
+    Descubre nuestra selección de ropa y accesorios
+    diseñados para destacar tu personalidad.
+  </p>
+  <a href="#productos" class="button">
+    Ver colección
+  </a>
+</div>
+  </section>
+  <!-- PRODUCTOS -->
+  <section id="productos" class="section products-section">
+<div class="section-heading">
+  <p class="eyebrow">NUEVA COLECCIÓN</p>
+  <h2>Productos destacados</h2>
+  <p>
+    Piezas seleccionadas para un estilo moderno,
+    elegante y sofisticado.
+  </p>
+</div>
+<div class="products-grid">
+  <article class="product-card">
+    <div class="product-image">
+      <span>IMAGEN</span>
+    </div>
+    <div class="product-info">
+      <p>ROPA</p>
+      <h3>Camisa Essential</h3>
+      <strong>$39.99</strong>
+      <button
+        class="add-cart"
+        data-name="Camisa Essential"
+        data-price="39.99">
+        Agregar al carrito
+      </button>
+    </div>
+  </article>
+  <article class="product-card">
+    <div class="product-image">
+      <span>IMAGEN</span>
+    </div>
+    <div class="product-info">
+      <p>ROPA</p>
+      <h3>Blazer Classic</h3>
+      <strong>$79.99</strong>
+      <button
+        class="add-cart"
+        data-name="Blazer Classic"
+        data-price="79.99">
+        Agregar al carrito
+      </button>
+    </div>
+  </article>
+  <article class="product-card">
+    <div class="product-image">
+      <span>IMAGEN</span>
+    </div>
+    <div class="product-info">
+      <p>ACCESORIOS</p>
+      <h3>Reloj Signature</h3>
+      <strong>$59.99</strong>
+      <button
+        class="add-cart"
+        data-name="Reloj Signature"
+        data-price="59.99">
+        Agregar al carrito
+      </button>
+    </div>
+  </article>
+  <article class="product-card">
+    <div class="product-image">
+      <span>IMAGEN</span>
+    </div>
+    <div class="product-info">
+      <p>ACCESORIOS</p>
+      <h3>Gafas Executive</h3>
+      <strong>$34.99</strong>
+      <button
+        class="add-cart"
+        data-name="Gafas Executive"
+        data-price="34.99">
+        Agregar al carrito
+      </button>
+    </div>
+  </article>
+</div>
+  </section>
+  <!-- SERVICIOS -->
+  <section id="servicios" class="services">
+<div class="section-heading light">
+  <p class="eyebrow">
+    NUESTRA EXPERIENCIA
+  </p>
+  <h2>
+    Más que una tienda.
+  </h2>
+</div>
+<div class="services-grid">
+  <article>
+    <span>01</span>
+    <h3>Calidad</h3>
+    <p>
+      Seleccionamos productos pensando
+      en calidad, diseño y comodidad.
+    </p>
+  </article>
+  <article>
+    <span>02</span>
+    <h3>Estilo</h3>
+    <p>
+      Encuentra piezas que reflejen
+      tu personalidad y tu esencia.
+    </p>
+  </article>
+  <article>
+    <span>03</span>
+    <h3>Atención</h3>
+    <p>
+      Te acompañamos para que encuentres
+      exactamente lo que buscas.
+    </p>
+  </article>
+</div>
+  </section>
+  <!-- GALERÍA -->
+  <section id="galeria" class="section gallery-section">
+<div class="section-heading">
+  <p class="eyebrow">
+    ANTHONY BOUTIQUE
+  </p>
+  <h2>
+    Nuestra galería
+  </h2>
+</div>
+<div class="gallery-grid">
+  <div class="gallery-item">
+    <span>LOOK 01</span>
+  </div>
+  <div class="gallery-item">
+    <span>LOOK 02</span>
+  </div>
+  <div class="gallery-item">
+    <span>LOOK 03</span>
+  </div>
+  <div class="gallery-item">
+    <span>LOOK 04</span>
+  </div>
+</div>
+  </section>
+  <!-- CONTACTO -->
+  <section id="contacto" class="contact">
+<p class="eyebrow">
+  CONTACTO
+</p>
+<h2>
+  ¿Hablamos?
+</h2>
+<p>
+  Estamos aquí para ayudarte a encontrar
+  tu próximo estilo favorito.
+</p>
+<a
+  href="mailto:contacto@anthonyboutique.com"
+  class="button">
+  Contáctanos
+</a>
+  </section>
+</main>
+<!-- CARRITO -->
+<aside class="cart" id="cart">
+  <div class="cart-header">
+    <h2>Tu carrito</h2>
+<button id="closeCart">
+  ×
+</button>
+  </div>
+  <div id="cartItems">
+    <p class="empty-cart">
+      Tu carrito está vacío.
+    </p>
+  </div>
+  <div class="cart-footer">
+<div class="cart-total">
+  <span>Total</span>
+  <strong id="cartTotal">
+    $0.00
+  </strong>
+</div>
+<button class="checkout-button">
+  Finalizar compra
+</button>
+  </div>
+</aside>
+<footer class="footer">
+  <div>
+    <strong>
+      ANTHONY BOUTIQUE
+    </strong>
+<p>
+  Elegancia que define tu estilo.
+</p>
+  </div>
+  <p>
+    © 2026 Anthony Boutique.
+    Todos los derechos reservados.
+  </p>
+</footer>
